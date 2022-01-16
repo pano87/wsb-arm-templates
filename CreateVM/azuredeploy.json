@@ -18,7 +18,7 @@
     },
     "adminUsername": {
       "type": "string",
-      "defaultValue": "heheszki",
+      "value": "pnowak",
       "metadata": {
         "description": "Username for the Virtual Machine."
       }
@@ -26,6 +26,7 @@
     "authenticationType": {
       "type": "string",
       "defaultValue": "password",
+      "value": "ING34bsk#yfgdhgfhg",
       "allowedValues": [
         "sshPublicKey",
         "password"
@@ -42,6 +43,7 @@
     },
     "dnsLabelPrefix": {
       "type": "string",
+      "value": "[toLower(format('simplelinuxvm-{0}', uniqueString(resourceGroup().id)))]",
       "defaultValue": "[toLower(format('simplelinuxvm-{0}', uniqueString(resourceGroup().id)))]",
       "metadata": {
         "description": "Unique DNS Name for the Public IP used to access the Virtual Machine."
