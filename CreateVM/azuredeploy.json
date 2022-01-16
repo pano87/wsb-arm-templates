@@ -11,11 +11,11 @@
             "value": "vm-pn-arm-templat570"
         },
         "networkSecurityGroupName": {
-          "type": "string",
+            "type": "string",
             "value": "VM-PN-ARM-Template-nsg"
         },
         "networkSecurityGroupRules": {
-          "type": "array",
+            "type": "array",
             "value": [
                 {
                     "name": "SSH",
@@ -33,17 +33,21 @@
             ]
         },
         "subnetName": {
+            "type": "string",
             "value": "default"
         },
         "virtualNetworkName": {
+            "type": "string",
             "value": "armTemplates-we-vnet"
         },
         "addressPrefixes": {
+            "type": "array",
             "value": [
                 "10.0.0.0/16"
             ]
         },
         "subnets": {
+            "type": "array",
             "value": [
                 {
                     "name": "default",
@@ -54,30 +58,39 @@
             ]
         },
         "publicIpAddressName": {
+            "type": "string",
             "value": "VM-PN-ARM-Template-ip"
         },
         "publicIpAddressType": {
+            "type": "string",
             "value": "Dynamic"
         },
         "publicIpAddressSku": {
+            "type": "string",
             "value": "Basic"
         },
         "virtualMachineName": {
+            "type": "string",
             "value": "VM-PN-ARM-Template"
         },
         "virtualMachineComputerName": {
+            "type": "string",
             "value": "VM-PN-ARM-Template"
         },
         "virtualMachineRG": {
+            "type": "string",
             "value": "armTemplates-we"
         },
         "osDiskType": {
+            "type": "string",
             "value": "Premium_LRS"
         },
         "virtualMachineSize": {
+            "type": "string",
             "value": "Standard_B1s"
         },
         "adminUsername": {
+            "type": "string",
             "value": "azureuser"
         }
     },
