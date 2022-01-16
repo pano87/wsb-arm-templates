@@ -21,5 +21,4 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/pano87/wsb-arm-templates/main/CreateVM/deployVM-template.json'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/pano87/wsb-arm-templates/main/CreateVM/deployVM-parameters.json'
     deploymentMode: 'Incremental'
