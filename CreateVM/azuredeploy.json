@@ -8,11 +8,11 @@
         },
         "networkInterfaceName": {
             "type": "string",
-            "value": "vm-pn-arm-templat570"
+            "defaultValue": "vm-pn-arm-templat570"
         },
         "networkSecurityGroupName": {
             "type": "string",
-            "value": "VM-PN-ARM-Template-nsg"
+            "defaultValue": "VM-PN-ARM-Template-nsg"
         },
         "networkSecurityGroupRules": {
             "type": "array",
