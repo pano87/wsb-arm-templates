@@ -15,7 +15,7 @@
       "value": "ING34bsk#yfgdhgfhg"
     },
     "dnsLabelPrefix": {
-      "value": "[toLower(format('simplelinuxvm-{0}', uniqueString(resourceGroup().id)))]"
+      "value": "[toLower(concat(variables('VMName'),'-nic-', variables('suffix')))]"
     },
     "ubuntuOSVersion": {
       "value": "18.04-LTS"
