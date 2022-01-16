@@ -3,9 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
+            "type": "string",
             "value": "westeurope"
         },
         "networkInterfaceName": {
+            "type": "string",
             "value": "vm-pn-arm-templat570"
         },
         "networkSecurityGroupName": {
