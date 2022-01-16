@@ -11,9 +11,11 @@
             "value": "vm-pn-arm-templat570"
         },
         "networkSecurityGroupName": {
+          "type": "string",
             "value": "VM-PN-ARM-Template-nsg"
         },
         "networkSecurityGroupRules": {
+          "type": "array",
             "value": [
                 {
                     "name": "SSH",
