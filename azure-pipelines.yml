@@ -20,5 +20,5 @@ steps:
     resourceGroupName: 'armTemplates-we'
     location: 'West Europe'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/pano87/wsb-arm-templates/main/CreateWebApp/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/pano87/wsb-arm-templates/main/CreateVM/azuredeploy.json'
     deploymentMode: 'Incremental'
