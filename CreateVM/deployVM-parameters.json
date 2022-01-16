@@ -15,12 +15,11 @@
       "value": "ING34bsk#yfgdhgfhg"
     },
     "dnsLabelPrefix": {
-      "value": "[toLower(concat(variables('VMName'),'-nic-', variables('suffix')))]"
+      "value": "[toLower(format('simplelinuxvm-{0}', uniqueString(resourceGroup().id)))]"
     },
     "ubuntuOSVersion": {
       "value": "18.04-LTS"
     },
-    "location": {
       "value": "westeurope"
     },
     "vmSize": {
