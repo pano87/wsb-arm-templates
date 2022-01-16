@@ -20,6 +20,7 @@
     "ubuntuOSVersion": {
       "value": "18.04-LTS"
     },
+    "location": {
       "value": "westeurope"
     },
     "vmSize": {
